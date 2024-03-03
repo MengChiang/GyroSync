@@ -1,0 +1,562 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD3EC1AC2B01D69D00FDD1AD /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3EC1AB2B01D69D00FDD1AD /* DataModels.swift */; };
+		FD3EC1AD2B01D69D00FDD1AD /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3EC1AB2B01D69D00FDD1AD /* DataModels.swift */; };
+		FDD757D82B01C342000FCA9B /* GyroSyncApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD757D72B01C342000FCA9B /* GyroSyncApp.swift */; };
+		FDD757DA2B01C342000FCA9B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD757D92B01C342000FCA9B /* ContentView.swift */; };
+		FDD757DC2B01C343000FCA9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDD757DB2B01C343000FCA9B /* Assets.xcassets */; };
+		FDD757DF2B01C343000FCA9B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDD757DE2B01C343000FCA9B /* Preview Assets.xcassets */; };
+		FDD757E52B01C343000FCA9B /* GyroSync Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = FDD757E42B01C343000FCA9B /* GyroSync Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FDD757EA2B01C343000FCA9B /* GyroSyncApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD757E92B01C343000FCA9B /* GyroSyncApp.swift */; };
+		FDD757EC2B01C343000FCA9B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDD757EB2B01C343000FCA9B /* ContentView.swift */; };
+		FDD757EE2B01C344000FCA9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDD757ED2B01C344000FCA9B /* Assets.xcassets */; };
+		FDD757F12B01C344000FCA9B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDD757F02B01C344000FCA9B /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FDD757E62B01C343000FCA9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FDD757CC2B01C342000FCA9B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FDD757E32B01C343000FCA9B;
+			remoteInfo = "GyroSync Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FDD757F72B01C344000FCA9B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				FDD757E52B01C343000FCA9B /* GyroSync Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FD19F3D22B03196A00EDD892 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FD3EC1A92B01C63700FDD1AD /* GyroSync-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GyroSync-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
+		FD3EC1AB2B01D69D00FDD1AD /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
+		FDD757D42B01C342000FCA9B /* GyroSync.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GyroSync.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD757D72B01C342000FCA9B /* GyroSyncApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyroSyncApp.swift; sourceTree = "<group>"; };
+		FDD757D92B01C342000FCA9B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FDD757DB2B01C343000FCA9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDD757DE2B01C343000FCA9B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FDD757E42B01C343000FCA9B /* GyroSync Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GyroSync Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDD757E92B01C343000FCA9B /* GyroSyncApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GyroSyncApp.swift; sourceTree = "<group>"; };
+		FDD757EB2B01C343000FCA9B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FDD757ED2B01C344000FCA9B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDD757F02B01C344000FCA9B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDD757D12B01C342000FCA9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD757E12B01C343000FCA9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD3EC1AA2B01D65500FDD1AD /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				FD3EC1AB2B01D69D00FDD1AD /* DataModels.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		FDD757CB2B01C342000FCA9B = {
+			isa = PBXGroup;
+			children = (
+				FD3EC1AA2B01D65500FDD1AD /* Shared */,
+				FDD757D62B01C342000FCA9B /* GyroSync */,
+				FDD757E82B01C343000FCA9B /* GyroSync Watch App */,
+				FDD757D52B01C342000FCA9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDD757D52B01C342000FCA9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDD757D42B01C342000FCA9B /* GyroSync.app */,
+				FDD757E42B01C343000FCA9B /* GyroSync Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDD757D62B01C342000FCA9B /* GyroSync */ = {
+			isa = PBXGroup;
+			children = (
+				FD19F3D22B03196A00EDD892 /* Info.plist */,
+				FDD757D72B01C342000FCA9B /* GyroSyncApp.swift */,
+				FDD757D92B01C342000FCA9B /* ContentView.swift */,
+				FDD757DB2B01C343000FCA9B /* Assets.xcassets */,
+				FDD757DD2B01C343000FCA9B /* Preview Content */,
+			);
+			path = GyroSync;
+			sourceTree = "<group>";
+		};
+		FDD757DD2B01C343000FCA9B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FDD757DE2B01C343000FCA9B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		FDD757E82B01C343000FCA9B /* GyroSync Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				FD3EC1A92B01C63700FDD1AD /* GyroSync-Watch-App-Info.plist */,
+				FDD757E92B01C343000FCA9B /* GyroSyncApp.swift */,
+				FDD757EB2B01C343000FCA9B /* ContentView.swift */,
+				FDD757ED2B01C344000FCA9B /* Assets.xcassets */,
+				FDD757EF2B01C344000FCA9B /* Preview Content */,
+			);
+			path = "GyroSync Watch App";
+			sourceTree = "<group>";
+		};
+		FDD757EF2B01C344000FCA9B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FDD757F02B01C344000FCA9B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDD757D32B01C342000FCA9B /* GyroSync */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDD757F82B01C344000FCA9B /* Build configuration list for PBXNativeTarget "GyroSync" */;
+			buildPhases = (
+				FDD757D02B01C342000FCA9B /* Sources */,
+				FDD757D12B01C342000FCA9B /* Frameworks */,
+				FDD757D22B01C342000FCA9B /* Resources */,
+				FDD757F72B01C344000FCA9B /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FDD757E72B01C343000FCA9B /* PBXTargetDependency */,
+			);
+			name = GyroSync;
+			productName = GyroSync;
+			productReference = FDD757D42B01C342000FCA9B /* GyroSync.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FDD757E32B01C343000FCA9B /* GyroSync Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDD757F42B01C344000FCA9B /* Build configuration list for PBXNativeTarget "GyroSync Watch App" */;
+			buildPhases = (
+				FDD757E02B01C343000FCA9B /* Sources */,
+				FDD757E12B01C343000FCA9B /* Frameworks */,
+				FDD757E22B01C343000FCA9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GyroSync Watch App";
+			productName = "GyroSync Watch App";
+			productReference = FDD757E42B01C343000FCA9B /* GyroSync Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDD757CC2B01C342000FCA9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					FDD757D32B01C342000FCA9B = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					FDD757E32B01C343000FCA9B = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = FDD757CF2B01C342000FCA9B /* Build configuration list for PBXProject "GyroSync" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FDD757CB2B01C342000FCA9B;
+			productRefGroup = FDD757D52B01C342000FCA9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDD757D32B01C342000FCA9B /* GyroSync */,
+				FDD757E32B01C343000FCA9B /* GyroSync Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDD757D22B01C342000FCA9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD757DF2B01C343000FCA9B /* Preview Assets.xcassets in Resources */,
+				FDD757DC2B01C343000FCA9B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD757E22B01C343000FCA9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD757F12B01C344000FCA9B /* Preview Assets.xcassets in Resources */,
+				FDD757EE2B01C344000FCA9B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDD757D02B01C342000FCA9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD3EC1AC2B01D69D00FDD1AD /* DataModels.swift in Sources */,
+				FDD757DA2B01C342000FCA9B /* ContentView.swift in Sources */,
+				FDD757D82B01C342000FCA9B /* GyroSyncApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDD757E02B01C343000FCA9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD3EC1AD2B01D69D00FDD1AD /* DataModels.swift in Sources */,
+				FDD757EC2B01C343000FCA9B /* ContentView.swift in Sources */,
+				FDD757EA2B01C343000FCA9B /* GyroSyncApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FDD757E72B01C343000FCA9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FDD757E32B01C343000FCA9B /* GyroSync Watch App */;
+			targetProxy = FDD757E62B01C343000FCA9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FDD757F22B01C344000FCA9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FDD757F32B01C344000FCA9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		FDD757F52B01C344000FCA9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GyroSync Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = S9FA77AXZN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GyroSync-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = GyroSync;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = edu.nuyl.GyroSync;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nuyl.GyroSync.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.6;
+			};
+			name = Debug;
+		};
+		FDD757F62B01C344000FCA9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GyroSync Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = S9FA77AXZN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "GyroSync-Watch-App-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = GyroSync;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = edu.nuyl.GyroSync;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nuyl.GyroSync.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.6;
+			};
+			name = Release;
+		};
+		FDD757F92B01C344000FCA9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GyroSync/Preview Content\"";
+				DEVELOPMENT_TEAM = S9FA77AXZN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GyroSync/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = GyroSync;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We use the camera to record video.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We use the location to mapping information.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nuyl.GyroSync;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDD757FA2B01C344000FCA9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"GyroSync/Preview Content\"";
+				DEVELOPMENT_TEAM = S9FA77AXZN;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GyroSync/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = GyroSync;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We use the camera to record video.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "We use the location to mapping information.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.nuyl.GyroSync;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDD757CF2B01C342000FCA9B /* Build configuration list for PBXProject "GyroSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD757F22B01C344000FCA9B /* Debug */,
+				FDD757F32B01C344000FCA9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDD757F42B01C344000FCA9B /* Build configuration list for PBXNativeTarget "GyroSync Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD757F52B01C344000FCA9B /* Debug */,
+				FDD757F62B01C344000FCA9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDD757F82B01C344000FCA9B /* Build configuration list for PBXNativeTarget "GyroSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDD757F92B01C344000FCA9B /* Debug */,
+				FDD757FA2B01C344000FCA9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FDD757CC2B01C342000FCA9B /* Project object */;
+}
